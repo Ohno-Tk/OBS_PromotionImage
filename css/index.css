@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  background-color: red;
+}
+
+.slide-items {
+  width: 100%;
+  height: 100%;
+}
+
+.slide-items img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.slick-next {
+  right: 30px!important;
+}
+.slick-prev {
+  left: -30px!important;
+}
+.slick-arrow {
+  width:100px!important;
+  height:200px!important;
+  z-index:2!important;
+}
+
+.slick-arrow:before{
+  opacity:1!important; /* 半透明の調整 */
+}
+
+/* ドットの間隔 */
+.slick-dots li{
+	width:100px!important;
+  bottom: -40px!important;/* 縦の位置の調整 */
+}
+
+/* ドットカスタム */
+.slick-dots li{
+	width:40px!important;/* ドットの間隔をあける */
+}
+
+.slick-dots li button:before{
+  font-size:30px!important;/* ドットのサイズ変更 */
+  color: white;
+  opacity: 1; /* 半透明の調整 */
+}
+
+.slick-dots li.slick-active button:before {
+  color: #66FFDD;
+  opacity: 1; /* 半透明の調整 */
+}
