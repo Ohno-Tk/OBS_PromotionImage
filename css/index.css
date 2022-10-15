@@ -13,22 +13,6 @@ body {
   object-fit: cover;
 }
 
-.slick-next {
-  right: 30px!important;
-}
-.slick-prev {
-  left: -30px!important;
-}
-.slick-arrow {
-  width:100px!important;
-  height:200px!important;
-  z-index:2!important;
-}
-
-.slick-arrow:before{
-  opacity:1!important; /* 半透明の調整 */
-}
-
 
 /*---------------------
 ドット
