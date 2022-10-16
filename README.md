@@ -5,6 +5,8 @@ OBSで表示できるソシャゲ風告知ツール
 
 # DEMO(デモ動画や図解)
 
+https://user-images.githubusercontent.com/51406176/196016018-abab9fcd-6fea-4fd4-b4ae-f6a86f837853.mp4
+
 
 # Features(セールスポイントや差別化)
 - テキストファイルから簡単に編集できる
